@@ -37,6 +37,10 @@ endif
 PRODUCT_PACKAGES += \
     TrebuchetOverlay
 
+# ReclaimOS launcher (HOME); Trebuchet above remains the Recents provider
+PRODUCT_PACKAGES += \
+    ReclaimOSLauncher
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
