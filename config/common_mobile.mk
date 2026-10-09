@@ -27,19 +27,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     TrebuchetQuickStepGo
 else
+# ReclaimOS home: Trebuchet Quickstep with the ReclaimOS home in place of the
+# stock workspace. It is the HOME app and the Recents provider.
 PRODUCT_PACKAGES += \
-    TrebuchetQuickStep
+    TrebuchetQuickStepReclaimOS
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    TrebuchetQuickStep
+    TrebuchetQuickStepReclaimOS
 endif
 
 PRODUCT_PACKAGES += \
     TrebuchetOverlay
-
-# ReclaimOS launcher (HOME); Trebuchet above remains the Recents provider
-PRODUCT_PACKAGES += \
-    ReclaimOSLauncher
 
 # Charger
 PRODUCT_PACKAGES += \
